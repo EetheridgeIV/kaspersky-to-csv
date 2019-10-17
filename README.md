@@ -3,4 +3,10 @@ Converts the export file from Kaspersky Password Manager, which is a .txt file, 
 
 https://support.1password.com/create-csv-files/
 
-In-Progress...
+## To compile:
+    make
+
+## To run:
+    ./ConvertToCSV <inputfile>
+
+Program will create a CSV file named "1pass.csv" in the same directory you ran the program in.
